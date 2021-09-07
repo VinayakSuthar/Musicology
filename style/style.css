@@ -27,6 +27,7 @@ html {
   padding: 10px 70px;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 #logo img {
@@ -113,6 +114,7 @@ html {
 
 h2 {
   font-size: 3em;
+  text-transform: uppercase;
 }
 
 .card {
@@ -207,4 +209,44 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 18px;
+}
+
+/* Amazing Dance  */
+
+#amazingDance {
+  display: flex;
+
+}
+
+#adImage {
+  height: 984px;
+}
+
+#Content {
+  background-color: var(--primary-color);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 70px;
+}
+
+#adTitle {
+  text-transform: uppercase;
+}
+
+#adDescription {
+  margin: 50px 0;
+  font-size: 1.5em;
+}
+
+#readMore {
+  width: 300px;
+  background-color: #2C2C2C;
+  color: #fff;
+  font-size: 1.2em;
+  height: 50px;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
