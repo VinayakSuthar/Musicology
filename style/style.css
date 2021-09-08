@@ -293,3 +293,43 @@ h2 {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+/* Our statistics */
+
+#ourStatistics {
+  background-color: #2c2c2c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#statisticsDescription {
+  font-size: 1.5em;
+  width: 60%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+#stats {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.statNumber {
+  font-size: 2.3em;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.statName {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
