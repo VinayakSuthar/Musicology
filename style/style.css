@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --primary-color: #FF6309;
+  --primary-color: #ff6309;
 }
 
 * {
@@ -50,7 +50,6 @@ body {
   font-size: 20px;
 }
 
-
 /* Title section */
 
 #titleHere {
@@ -82,12 +81,12 @@ body {
 
 #titleHere #registerButton {
   background-color: var(--primary-color);
-  font-family: 'Urbanist', sans-serif;
+  font-family: "Urbanist", sans-serif;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: 500;
   color: #fff;
-  width:280px;
+  width: 280px;
   height: 50px;
   border-radius: 3px;
   margin-top: 30px;
@@ -119,11 +118,12 @@ body {
 
 h2 {
   font-size: 3em;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
 .card {
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   margin: 28px;
   width: 340px;
   height: 470px;
@@ -152,7 +152,7 @@ h2 {
 /* Pricing */
 
 #pricing {
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,7 +185,6 @@ h2 {
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-
 }
 
 .course .title {
@@ -205,7 +204,7 @@ h2 {
 }
 
 .priceBtn {
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   color: #fff;
   font-size: 1.3em;
   /* font-weight: 600; */
@@ -220,7 +219,6 @@ h2 {
 
 #amazingDance {
   display: flex;
-
 }
 
 #adImage {
@@ -248,7 +246,7 @@ h2 {
 
 #readMore {
   width: 300px;
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   color: #fff;
   font-size: 1.2em;
   height: 50px;
@@ -261,7 +259,6 @@ h2 {
 
 #bestDance {
   display: flex;
-  
 }
 
 #bdContent {
@@ -285,7 +282,7 @@ h2 {
 
 #bdReadMore {
   width: 300px;
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   color: #fff;
   font-size: 1.2em;
   height: 50px;
@@ -357,3 +354,50 @@ h2 {
 .hsTitle {
   margin-top: 50px;
 }
+
+/* Subscribe */
+
+#subscribe {
+  background-color: var(--primary-color);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sDescription {
+  font-size: 1.5em;
+  text-align: center;
+  width: 600px;
+  margin: 40px 0;
+}
+
+#emailContainer {
+  width: 600px;
+  height: 50px;
+  display: flex;
+}
+
+#email {
+  height: 100%;
+  width: 400px;
+  border-radius: 0;
+  font-family: "Urbanist";
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 20px;
+}
+
+#subscribeBtn {
+  width: 200px;
+  height: 100%;
+  border-radius: 0;
+  background-color: #2c2c2c;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: "Urbanist";
+}
+
+
